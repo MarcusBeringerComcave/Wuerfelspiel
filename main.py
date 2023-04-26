@@ -43,7 +43,7 @@ dice_art = {
 
 dice = []
 total = 0
-num_of_dice = int(input("Mit Würfeln wollen sie werfen?:"))
+num_of_dice = int(input("Mit wievielen Würfeln wollen sie werfen?:"))
 
 for die in range(num_of_dice):
     dice.append(random.randint(1, 6))
